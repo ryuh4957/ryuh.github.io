@@ -3,7 +3,7 @@ input = form.querySelector("input"),
 greeting = document.querySelector(".js-greetings");
 
 const USER_LS = "currentUser"; // user in local storage
-SHOWING_CN = "showing";
+const SHOWING_CN = "showing";
 
 function saveName(text){
     localStorage.setItem(USER_LS, text);

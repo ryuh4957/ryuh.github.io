@@ -18,7 +18,7 @@ function getWeather(lat, lon){
         const place = json.name;
         //const weather = json.weather[0].main;
 
-        weather.innerText = `오늘의 온도는 ${temperature}도\n @ ${place}`;
+        weather.innerText = `Today's temperature: ${temperature}℃\n @ ${place}`;
         //console.log(temperature, place);
     });
 }
